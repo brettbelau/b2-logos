@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ======================= General Style ======================= */
+
+.horizontalRuler {
+	border: 0;
+	color: #DCDCDC;
+	background-color: #DCDCDC;
+	height: 1px;
+	width: 100%;
+	text-align: left;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#titlediv {
+	margin-bottom:20px;
+}
+
+#b2logos_page_title {
+	font-weight:normal;
+	color:#777777;
+	height:60px;
+	line-height:60px;
+	border-bottom:1px solid #DDDDDD;
+	margin:0px 20px 20px 0px;
+}
+
+.successMessage {
+	background-color: #fffbcc;
+	border:1px solid #e6db55;
+	padding:10px;
+	margin:0px 20px 20px 0px;
+	color:#777777;
+}
+
+.failMessage {
+	background-color: #ffd1d1;
+	border:1px solid #db7a7a;
+	padding:10px;
+	margin:0px 20px 20px 0px;
+	color:#777777;
+}
+
+/* ======================= new ======================= */
+#b2logo_sc_options_metabox {
+	background-color:transparent;
+	border:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#b2logo_sc_options_metabox .inside {
+	margin:0px;
+	padding:0px;
+}
+#b2logo_sc_options_metabox .handlediv,
+#b2logo_sc_options_metabox .hndle {
+	display:none;
+}
+#b2logos_gene_short_leftSidebar {
+	width:auto !important;
+	float:none !important;
+}
+
+
+#b2logo_sc_preview_metabox {
+	background-color:transparent;
+	border:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#b2logo_sc_preview_metabox .inside {
+	margin:0px;
+	padding:0px;
+}
+#b2logo_sc_preview_metabox .handlediv, 
+#b2logo_sc_preview_metabox .hndle {
+	display:none;
+}
+
+#b2logos_gene_short_leftSidebar .row select,
+#b2logos_gene_short_leftSidebar .row input[type="text"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width:100% !important;
+}
+
+#b2logos_gene_short_leftSidebar .b2logos_sectionTitle {
+	background-color:#f5f5f5 !important;
+}
+
+#b2logos_noteParagraph strong{
+	color:#ffba00;
+}
+
+/* ======================= Generate Shortcode ======================= */
+
+
+#b2logos_gene_short_leftSidebar {
+	width:240px;
+	float:left;
+	position:relative;
+}
+
+#b2logos_gene_short_leftSidebar .b2logos_sectionTitle {
+	padding:7px 10px;
+	background-color:#e8e8e8;
+	border:1px solid #DDDDDD;
+	font-weight:bold;
+	cursor:pointer;
+	margin-top:10px;
+	z-index:2;
+	position:relative;
+}
+#b2logos_gene_short_leftSidebar .b2logos_sectionTitle:first-child {
+	margin-top:0px;
+}
+
+#b2logos_gene_short_leftSidebar .b2logos_sectionTitle:hover {
+	color:#0074a2;
+}
+
+#b2logos_gene_short_leftSidebar .b2logos_rowsContainer {
+	background-color:#ffffff;
+	padding:10px 10px 15px 10px;
+	height:0px;
+	overflow:hidden;
+	z-index:1;
+	margin-top:-30px;
+	border:1px solid #DDDDDD;
+	border-top:none;
+	
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+#b2logos_gene_short_leftSidebar .b2logos_rowsContainer.b2logos_rowsContainerOpend {
+	height:auto;
+	margin-top:0px;
+	overflow:visible;
+}
+
+#b2logos_gene_short_leftSidebar .row {
+	display:block;
+	margin-top:10px;
+	padding-top:10px;
+	border-top:1px solid #DDDDDD;
+}
+#b2logos_gene_short_leftSidebar .row:first-child {
+	margin-top:0px;
+	padding-top:0px;
+	border-top:none;
+}
+#b2logos_gene_short_leftSidebar .row label {
+	display:block;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+#b2logos_gene_short_leftSidebar .row select,
+#b2logos_gene_short_leftSidebar .row input[type="text"] {
+	width:218px;
+	margin:0px;
+}
+
+#b2logos_gene_short_leftSidebar .row .button-primary {
+	height: 26px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#b2logos_noteParagraph {
+	margin:0px 0px 20px 0px;
+	color:#777777;
+}
+#b2logos_div_shortcode,
+#b2logos_div_shortcode_saved{
+	background-color: #fffbcc;
+	border:1px solid #e6db55;
+	padding:10px;
+	margin:0px 0px 20px 0px;
+	color:#777777;
+}
+
+#b2logos_gene_short_preview {
+	margin:0px 0px 0px 0px;
+	padding:25px;
+	border:1px solid #DDDDDD;
+	background-color:#ffffff;
+}
+
+.b2logos_farbtastic {
+	display:none;
+}
+
+#post-body #normal-sortables {
+	min-height: 0px;
+}
+
+#post-body-content, .edit-form-section {
+	margin-bottom: 0px;
+}
+
+#b2logos_categoriesList {
+	margin:0px;
+}
+#b2logos_categoriesList ul {
+	margin-left:25px;
+}
+#b2logos_categoriesList li{
+	margin:0px;
+}
+#b2logos_categoriesList label.selectit{
+	display:inline-block;
+	font-weight:normal;
+	margin:0px;
+	line-height:2;
+}
